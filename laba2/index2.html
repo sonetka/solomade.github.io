@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta charset="UTF-8"> //russish
+    <title>Lab 1 by Sokht Sultan</title>
+  </head>
+
+  <body>
+    <h1 style="color:blue;"> Список: </h1>
+    
+    <ul>
+      <li>
+        <a href="https://www.kubsu.ru/ru" > Главная страница сайта </a>
+      </li>
+
+      <li>
+        <a href="https://www.kubsu.ru/"> Главная страница сайта КубГУ (в протоколе https) </a>
+      </li>
+
+      <br />
+
+      <li>
+        <a href="https://www.kubsu.ru/ru" name="photo" > <img src="KUBSU.jpg" alt="KUBSU" width="400" height="400"> </a>
+      </li>
+
+      <li>
+        <a href="https://sonetka.github.io/index.html/VnutrStran.html" > Внутренняя старница </a>
+      </li>
+
+      <li>
+        <a href="#photo"> Вернуться к фрагменту с фото </a>
+      </li>
+
+                  <li>
+                <a href="https://www.kubsu.ru?about=1&second=2&third=3"> Ссылка с тремя параметрами в URL </a>
+            </li>
+            <li> 
+                <a href="/index.html?id=228" > Ссылка с параметром id </a> 
+            </li>
+            <li><a href="/VnutrStran.html"> Oтносительная ссылка на страницу в текущем каталоге </a>
+            </li> 
+
+
+      <li>
+        <p>  
+          Куба́нский государственный университет, сокращённо КубГУ — одно из ведущих <a href = "https://ru.wikipedia.org/wiki/Высшее_учебное_заведение" >высших учебных заведений</a>,
+          расположенное в <a href = "https://ru.wikipedia.org/wiki/Краснодар" >Краснодаре</a>. Является одним из крупнейших и старейших университетов юга России.
+        </p>
+      </li>
+
+      <li>
+        <img src="квадрат_круг.jpg" width="840" height="500" usemap="#map" alt="фигуры">
+          <map name="map"> 
+            <area shape="rect" alt="прямоугольник" coords="470,120,730,380" href="https://ru.wikipedia.org/wiki/Магический_квадрат">
+            <area shape="circle" alt="круг" coords="205,250,130" href="https://ru.wikipedia.org/wiki/Магический_круг">
+          </map>
+      </li>
+
+      <li>
+          <a href=""> Ссылка с пустым href </a>
+      </li>
+      
+      <li>
+          <a> Ссылка без href </a>
+      </li>
+      
+      <li>
+          <a href="/sonetka.github.io/index.html" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам</a>
+      </li>
+      
+      <li>
+          <!--noindex--><a href="/sonetka.github.io/index.html" rel="nofollow"> Ссылка, запрещенная для индексации поисковиками </a><!--/noindex-->
+      </li>
+
+      <li>
+        Нумерованный список 
+        <ol>
+          <li> 
+            <a href="https://ru.wikipedia.org/wiki/Большой_Шлёпа"> Шлепа</a>
+          </li>
+
+          <li> 
+            <a href="https://ru.wikipedia.org/wiki/Котята_бонсай">Котята бонсай</a>
+          </li>
+
+          <li> 
+            <a href="https://floppa.fandom.com/ru/wiki/Чмоня">Чмоня</a>
+          </li>
+          
+        </ol>
+      </li> 
+
+      <li> 
+        <a href="https://ftp://sonetka:parollol@son.ru/temp/file.txt" > Cсылкa на файл на сервере FTP с авторизацией</a>
+      </li>
+      
+    </ul>
+
+        <form action="/"
+      method="POST">
+
+      <label>
+        Введите свое ФИО:<br />
+        <input name="field-name-1"
+          value="" />
+      </label><br />
+
+      <br />
+
+      <label>
+        Укажите свой номер телефона:<br />
+        <input name="field-name-1"
+          value="" />
+      </label><br />
+
+      <br />
+
+      <label>
+        Укажите свой email:<br />
+        <input name="field-email"
+          type="email"
+          placeholder="Введите вашу почту" />
+      </label><br />
+
+      <br />
+
+      <label>
+        Дата рождения:<br />
+        <input name="field-date"
+          value="2019-08-13"
+          type="date" />
+      </label><br />
+
+      <br />
+
+      Укажите ваш пол:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Значение1" />
+        Мужской</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        Женский</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение3" />
+        Другое</label><br />
+
+      <br />
+
+      <label>
+        Любимый язык программирования:
+        <br />
+        <select name="field-name-4[]"
+          multiple="multiple">
+          <option value="1" selected="selected"> Pascal </option>
+          <option value="2" selected="selected"> C </option>
+          <option value="3" selected="selected"> C++ </option>
+          <option value="4" selected="selected"> JavaScript </option>
+          <option value="5" selected="selected"> PHP </option>
+          <option value="6" selected="selected"> Python </option>
+          <option value="7" selected="selected"> Java </option>
+          <option value="8" selected="selected"> Haskel </option>
+          <option value="9" selected="selected"> Clojure </option>
+          <option value="10" selected="selected"> Prolog </option>
+          <option value="11" selected="selected"> Scala </option>
+        </select>
+      </label><br />
+
+      <br />
+
+
+        <label>
+          Расскажите о себе:<br />
+          <textarea name="field-name-2"></textarea>
+        </label><br />
+
+      <br />
+
+      <label><input type="checkbox" checked="checked"
+        name="chekbruh" />
+        С контрактом ознакомлен (а)</label><br />
+
+
+      <input type="submit" value="Сохранить" />
+    </form>
+
+    
+  </body>
+  
+</html>
