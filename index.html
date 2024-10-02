@@ -1,4 +1,101 @@
 <!DOCTYPE html>
 <html>
+  
+  <head>
+    <meta charset="UTF-8"> //russish
+    <title>Lab 1 by Sokht Sultan</title>
+  </head>
 
+  <body>
+    <h1 style="color:blue;"> Список: </h1>
+    
+    <ul>
+      <li>
+        <a href="https://www.kubsu.ru/ru" > Главная страница сайта </a>
+      </li>
+
+      <li>
+        <a href="https://www.kubsu.ru/"> Главная страница сайта КубГУ (в протоколе https) </a>
+      </li>
+
+      <br />
+
+      <li>
+        <a href="https://www.kubsu.ru/ru" name="photo" > <img src="KUBSU.jpg" alt="KUBSU" width="400" height="400"> </a>
+      </li>
+
+      <li>
+        <a href="/VnutrStran.html" > Внутренняя старница </a>
+      </li>
+
+      <li>
+        <a href="#photo"> Вернуться к фрагменту с фото </a>
+      </li>
+
+                  <li>
+                <a href="https://www.kubsu.ru?about=1&second=2&third=3"> Ссылка с тремя параметрами в URL </a>
+            </li>
+            <li> 
+                <a href="/index.html?id=228" > Ссылка с параметром id </a> 
+            </li>
+            <li><a href="/VnutrStran.html"> Oтносительная ссылка на страницу в текущем каталоге </a>
+            </li> 
+
+
+      <li>
+        <p>  
+          Куба́нский государственный университет, сокращённо КубГУ — одно из ведущих <a href = "https://ru.wikipedia.org/wiki/Высшее_учебное_заведение" >высших учебных заведений</a>,
+          расположенное в <a href = "https://ru.wikipedia.org/wiki/Краснодар" >Краснодаре</a>. Является одним из крупнейших и старейших университетов юга России.
+        </p>
+      </li>
+
+      <li>
+        <img src="квадрат_круг.jpg" width="840" height="500" usemap="#map" alt="фигуры">
+          <map name="map"> 
+            <area shape="rect" alt="прямоугольник" coords="470,120,730,380" href="https://ru.wikipedia.org/wiki/Магический_квадрат">
+            <area shape="circle" alt="круг" coords="205,250,130" href="https://ru.wikipedia.org/wiki/Магический_круг">
+          </map>
+      </li>
+
+      <li>
+          <a href=""> Ссылка с пустым href </a>
+      </li>
+      
+      <li>
+          <a> Ссылка без href </a>
+      </li>
+      
+      <li>
+          <a href="/sonetka.github.io/index.html" rel="nofollow"> Ссылка, по которой запрещен переход поисковикам</a>
+      </li>
+      
+      <li>
+          <!--noindex--><a href="/sonetka.github.io/index.html" rel="nofollow"> Ссылка, запрещенная для индексации поисковиками </a><!--/noindex-->
+      </li>
+
+      <li>
+        Нумерованный список 
+        <ol>
+          <li> 
+            <a href="https://ru.wikipedia.org/wiki/Большой_Шлёпа"> Шлепа</a>
+          </li>
+
+          <li> 
+            <a href="https://ru.wikipedia.org/wiki/Котята_бонсай">Котята бонсай</a>
+          </li>
+
+          <li> 
+            <a href="https://floppa.fandom.com/ru/wiki/Чмоня">Чмоня</a>
+          </li>
+          
+        </ol>
+      </li> 
+
+      <li> 
+        <a href="https://ftp://sonetka:parollol@son.ru/temp/file.txt" > Cсылкa на файл на сервере FTP с авторизацией</a>
+      </li>
+      
+    </ul>
+  </body>
+  
 </html>
