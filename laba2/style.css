@@ -1,6 +1,6 @@
 body 
 {
-  background-image:"https://bogatyr.club/uploads/posts/2023-06/1687585018_bogatyr-club-p-graffiti-chernoe-foni-krasivo-24.jpg";
+  background-image:URL("https://bogatyr.club/uploads/posts/2023-06/1687585018_bogatyr-club-p-graffiti-chernoe-foni-krasivo-24.jpg");
   background-repeat: repeat;
   background-size: cover;
 }
