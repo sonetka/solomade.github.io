@@ -8,3 +8,9 @@ header
 {
   background-color:grey;
 }
+box1
+{
+  width: 300px;
+  background-color: skyblue;
+  font-size: 50px;
+}
