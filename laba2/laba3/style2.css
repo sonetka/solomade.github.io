@@ -28,3 +28,6 @@ td
 {
    border: 1px solid grey;
 }
+.container {
+  display: flex;
+}
