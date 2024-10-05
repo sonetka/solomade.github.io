@@ -11,7 +11,7 @@ header
 .box-1
 {
   background-color: white;
-  font-size: 50px;
   padding: 50px;
   border: 10px black;
+  margin: 20px;
 }
