@@ -1,0 +1,30 @@
+body 
+{
+  background-image:URL("https://avatars.mds.yandex.net/i?id=c4e7b18a8c9fce98edf9dd58d8ee6904_l-5129258-images-thumbs&n=33&w=1640&h=1080");
+  background-repeat: repeat;
+  background-size: cover;
+}
+header
+{
+  background-color:grey;
+}
+.box-1
+{
+  background-color: white;
+  padding: 50px;
+  margin: 50px;
+  border: solid;
+}
+table
+{
+  border-collapse: collapse;
+  border: 1px solid grey;
+}
+th 
+{
+   border: 1px solid grey;
+}
+td 
+{
+   border: 1px solid grey;
+}
