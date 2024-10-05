@@ -12,6 +12,6 @@ header
 {
   background-color: white;
   padding: 50px;
-  border: 10px black;
-  margin: 20px;
+  margin: 50px;
+  border: solid;
 }
