@@ -30,6 +30,16 @@ td
    border: 1px solid grey;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #45a1ff;
+  color: #fff;
+}
+
+<!-- laba3 -->
+
 .container {
   display: flex;
 }
@@ -45,3 +55,9 @@ td
   .search {
     order: 1;
   }
+  
+  <!-- laba4 -->
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
