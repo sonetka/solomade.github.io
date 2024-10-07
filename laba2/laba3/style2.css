@@ -27,6 +27,10 @@ th
    border: 1px solid grey;
 }
 
+div {
+  height: 90vh;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -48,7 +52,7 @@ td
   flex: 1;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (m) {
    #header {
       height: auto;
       width: auto;
