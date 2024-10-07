@@ -34,10 +34,6 @@ th
    border: 1px solid grey;
 }
 
-div {
-  height: calc(100vh - 50px);
-}
-
 footer {
   display: flex;
   justify-content: center;
