@@ -6,22 +6,26 @@
         {
           int f1, r;
           let f1 = document.getElementsByName("feild");
-          let r = document.getElementsByName("result");
-          if ("select" == "v1")
+          if (f1 = (/^[0-9]+$/))
           {
-            r.innerHTML = 58990*f1[0].value;
+            let r = document.getElementsByName("result");
+            if ("select" == "v1")
+            {
+              r.innerHTML = 58990*f1[0].value;
+            }
+            if ("select" == "v2")
+            {
+              r.innerHTML = 60000*f1[0].value;
+            }
+            if ("select" == "v3")
+            {
+              r.innerHTML = 100000*f1[0].value;
+            }
+            let s = document.getElementsByName("select");
+            console.log(s[0].value);
+            console.log(r[0].value);
+            return false;
           }
-          if ("select" == "v2")
-          {
-            r.innerHTML = 60000*f1[0].value;
-          }
-          if ("select" == "v3")
-          {
-            r.innerHTML = 100000*f1[0].value;
-          }
-          let s = document.getElementsByName("select");
-          console.log(r[0].value);
-          return false;
         }
     </script>
     <title>Laba Calc</title>
