@@ -51,6 +51,7 @@ td
 @media screen and (max-width: 650px) {
    #header {
       height: auto;
+      width: auto;
    }
    #main-nav {
       position: static;
@@ -59,5 +60,7 @@ td
       margin: 15px 100px 5px 0;
       position: static;
    }
-   #
+   #footer {
+      width: auto;
+   }
 }
