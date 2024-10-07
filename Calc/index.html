@@ -1,1 +1,39 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function Count_Cost()
+        {
+          int f1;
+          let f1 = document.getElementsByName("feild");
+          let r = document.getElementsByName("result");
+          if ("select" == "v1")
+          {
+            r.innerHTML = 58990*f1[0].value;
+          }
+          if ("select" == "v2")
+          {
+            r.innerHTML = 60000*f1[0].value;
+          }
+          if ("select" == "v3")
+          {
+            r.innerHTML = 100000*f1[0].value;
+          }
+        }
+    </script>
+  </head>
+  
+  <body>
+    <form>
+      <input name="field" type="int">
+      <select name="select">
+        <option value="v1">Iphone 14</option>
+        <option value="v2">Iphone 15</option>
+        <option value="v3">Iphone 16</option>
+      </select>
+      <button id="button1" onclick="return Count_Cost();">Count Cost</button>
+    </form>
+    <div id="result"></div>
+  </body>
+  
+</html>
