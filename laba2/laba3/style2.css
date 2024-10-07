@@ -51,20 +51,3 @@ td
 .container > li {
   flex: 1;
 }
-
-@media screen and (m) {
-   #header {
-      height: auto;
-      width: auto;
-   }
-   #main-nav {
-      position: static;
-   }
-   #site-logo {
-      margin: 15px 100px 5px 0;
-      position: static;
-   }
-   #footer {
-      width: auto;
-   }
-}
