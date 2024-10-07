@@ -24,7 +24,6 @@ th
 {
    border: 1px solid grey;
 }
-
 td 
 {
    border: 1px solid grey;
@@ -36,32 +35,4 @@ footer {
   padding: 5px;
   background-color: #45a1ff;
   color: #fff;
-}
-
-<!-- laba3 -->
-
-.container {
-  display: flex;
-}
-
-.container > li {
-  flex: 1;
-}
-
-div {
-  height: calc(100vh - 50px);
-}
-
-@media all and (max-width: 400px) {
-  .container > li {
-    flex-basis: 100%;
-  }
-  .search {
-    order: 1;
-  }
-  
-  <!-- laba4 -->
-
-.selector-for-some-widget {
-  box-sizing: content-box;
 }
