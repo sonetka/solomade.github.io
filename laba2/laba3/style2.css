@@ -50,11 +50,6 @@ td
    #header {
       height: auto;
    }
-   #searchform {
-      position: absolute;
-      top: 5px;
-      right: 0;
-   }
    #main-nav {
       position: static;
    }
@@ -62,18 +57,5 @@ td
       margin: 15px 100px 5px 0;
       position: static;
    }
-   #site-description {
-      margin: 0 0 15px;
-      position: static;
-   }
-   #content {
-      width: auto;
-      float: none;
-      margin: 20px 0;
-   }
-   #sidebar {
-      width: 100%;
-      float: none;
-      margin: 0;
-   }
+   #
 }
