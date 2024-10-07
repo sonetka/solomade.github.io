@@ -4,7 +4,7 @@
     <script>
       function Count_Cost()
         {
-          int f1;
+          int f1, r;
           let f1 = document.getElementsByName("feild");
           let r = document.getElementsByName("result");
           if ("select" == "v1")
@@ -19,12 +19,16 @@
           {
             r.innerHTML = 100000*f1[0].value;
           }
+          let s = document.getElementsByName("select");
+          console.log(s[0].value);
+          return false;
         }
     </script>
   </head>
   
   <body>
     <form>
+       <div id="result"></div>
       <input name="field" type="int">
       <select name="select">
         <option value="v1">Iphone 14</option>
@@ -33,7 +37,6 @@
       </select>
       <button id="button1" onclick="return Count_Cost();">Count Cost</button>
     </form>
-    <div id="result"></div>
   </body>
   
 </html>
