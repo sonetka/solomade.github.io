@@ -30,6 +30,14 @@ td
    border: 1px solid grey;
 }
 
+p, h1, a, td {
+ font-size:30px;
+ font-weight:normal;
+ padding:0px 0 0px;
+ line-height:100%;
+ font-style:italic;
+}
+
 footer {
   display: flex;
   justify-content: center;
