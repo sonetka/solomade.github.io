@@ -53,3 +53,8 @@ td
   .search {
     order: 1;
   }
+  h1 
+  {
+   font-size: calc(24px + (16 + 16 * 0.7) *     ((100vw - 320px) / 1280));
+  }
+}
