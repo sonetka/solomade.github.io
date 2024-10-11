@@ -8,6 +8,11 @@ header
 {
   background-color:grey;
 }
+img
+{
+  height: auto;
+  width: 100%;
+}
 .box-1
 {
   background-color: white;
