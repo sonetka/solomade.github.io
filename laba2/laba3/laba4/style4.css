@@ -1,19 +1,25 @@
-.sidebar {
-  height: 400px;
-  width: 450px;
-  position: -webkit-sticky; /* for Safari users */
-  position: sticky;
-  top: 0;
-  float: right;
-  margin-top: 100px;
-  padding-top: 40px;
-  background-color: white;
+#main-aside-wrapper
+{
+  flex-direction: row;
+  display: flex;
 }
-.sidebar div {
-  padding: 8px;
-  font-size: 24px;
-  display: block;
+main, aside
+{
+  background-color: #ddd;
+  margin: 10px;
+  padding: 10px;
 }
+aside
+{
+  flex: 1;
+  order: 1;
+}
+main
+{
+  flex: 1;
+  order: 2;
+}
+
 body 
 {
   background-image:URL("https://cdn-welcome.eu.mywebsite-editor.com/obc/user/2e4b1d74-9ee0-42ad-83a2-c5a740011202/7f117e27-4e90-4be3-8d33-34a948039c54");
