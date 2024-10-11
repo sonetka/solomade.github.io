@@ -64,12 +64,7 @@ footer {
 
 @media screen and (max-width: 640px) {
   body {
-    background: yellow;
-  }
-  main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    background: black;
   }
   table {
     width: 100%;
