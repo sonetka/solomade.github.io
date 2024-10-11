@@ -13,6 +13,13 @@ img
   height: auto;
   width: 100%;
 }
+p, h1, a, td {
+ font-size:30px;
+ font-weight:normal;
+ padding:0px 0 0px;
+ line-height:100%;
+ font-style:italic;
+}
 .box-1
 {
   background-color: white;
