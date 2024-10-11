@@ -11,22 +11,24 @@ header
 .box-1
 {
   background-color: white;
-  padding: 50px;
-  margin: 50px;
+  padding: 35px;
+  margin: 20px;
   border: solid;
 }
 table
 {
   border-collapse: collapse;
-  border: 1px solid grey;
+  border: 2px solid grey;
 }
 th 
 {
-   border: 1px solid grey;
+   border-collapse: collapse;
+   border: 2px solid grey;
 }
 td 
 {
-   border: 1px solid grey;
+   border-collapse: collapse;
+   border: 2px solid grey;
 }
 
 footer {
