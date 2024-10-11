@@ -61,3 +61,18 @@ footer {
   background-color: #45a1ff;
   color: #fff;
 }
+
+@media screen and (max-width: 640px) {
+  body {
+    background: yellow;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  table {
+    width: 100%;
+    order: 1;
+  }
+}
