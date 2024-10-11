@@ -1,13 +1,13 @@
 .sidebar {
-  height: 200px;
-  width: 150px;
+  height: 400px;
+  width: 450px;
   position: -webkit-sticky; /* for Safari users */
   position: sticky;
   top: 0;
   float: right;
   margin-top: 100px;
   padding-top: 40px;
-  background-color: lightblue;
+  background-color: white;
 }
 .sidebar div {
   padding: 8px;
