@@ -66,8 +66,36 @@ footer {
   body {
     background: black;
   }
+  .window
+  {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    max-width: -webkit-fill-available;
+    border-radius: 3%;
+    padding: 20px;
+  }
+  .header, .footer
+  {
+      flex-direction: column;
+      border-radius: 5%;
+  }
   table {
     width: 100%;
     order: 1;
   }
+  .links
+  {
+    order: 2;
+  }
+  .form
+  {
+    order: 3;
+  }
+  .nav
+  {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    }
 }
