@@ -1,22 +1,18 @@
-#main-aside-wrapper
-{
+#main-aside-wrapper {
   flex-direction: row;
   display: flex;
 }
-main, aside
-{
+main, aside {
   background-color: #ddd;
   margin: 10px;
   padding: 10px;
 }
-aside
-{
+aside {
   flex: 1;
   order: 1;
 }
-main
-{
-  flex: 1;
+main {
+  flex: 3;
   order: 2;
 }
 
