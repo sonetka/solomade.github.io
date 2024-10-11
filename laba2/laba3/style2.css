@@ -35,6 +35,7 @@ p, h1, a, td {
   padding: 35px;
   margin: 20px;
   border: solid;
+  border-color: red;
 }
 table
 {
