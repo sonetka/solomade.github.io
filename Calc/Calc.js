@@ -16,4 +16,4 @@ window.addEventListener("DOMContentLoaded", function ()
             Result.innerText = "Некорректный ввод";
         }
     });
-}
+});
