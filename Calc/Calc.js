@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", function ()
   CalcButton.addEventListener("click", function () {
         let input = field.value;
         if (inp.match(/^\d+$/) !== null) {
-            let x = IphoneCost[model.value] * inp;
+            let x = IphoneCost[model.value] * input;
             Result.innerText = x;
         } else {
             Result.innerText = "Некорректный ввод";
