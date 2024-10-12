@@ -4,28 +4,21 @@
     <script>
       function Count_Cost()
         {
-          int f1, r;
-          let f1 = document.getElementsByName("feild");
-          if (f1 = (/^[0-9]+$/))
+          var result;
+          var name = Number(document.getElementById("num1").value);
+          switch (op) 
           {
-            let r = document.getElementsByName("result");
-            if ("select" == "v1")
-            {
-              r.innerHTML = 58990*f1[0].value;
-            }
-            if ("select" == "v2")
-            {
-              r.innerHTML = 60000*f1[0].value;
-            }
-            if ("select" == "v3")
-            {
-              r.innerHTML = 100000*f1[0].value;
-            }
-            let s = document.getElementsByName("select");
-            console.log(s[0].value);
-            console.log(r[0].value);
-            return false;
+            case 'v1':
+              result = name*58990;
+              break;
+            case 'v2':
+              result = name*80000;
+              break;
+            case 'v3':
+              result = name*100000;
+              break;
           }
+          document.getElementById("result").innerHTML = result;
         }
     </script>
     <title>Laba Calc</title>
