@@ -4,9 +4,9 @@ window.addEventListener("DOMContentLoaded", function () {
 
     let field = document.getElementById("field");
     let model = document.getElementById("model");
-    let calcbutton = document.getElementById("buttonCalc");
+    let buttonCalc = document.getElementById("buttonCalc");
     let result = document.getElementById("result");
-    calcbutton.addEventListener("click", function () {
+    buttonCalc.addEventListener("click", function () {
         let inp = field.value;
         if (inp.match(/^\d+$/) !== null) 
         {
