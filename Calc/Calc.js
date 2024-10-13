@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let buttonCalc = document.getElementById("buttonCalc");
     let result = document.getElementById("result");
     buttonCalc.addEventListener("click", function () {
-        let inp = field.value.trim();
+        let inp = field.value;
         if (inp.match(/^\d+$/) !== null) 
         {
             let res = IphoneCost[model.value] * inp;
