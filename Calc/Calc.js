@@ -11,11 +11,11 @@ window.addEventListener("DOMContentLoaded", function () {
         if (inp.match(/^\d+$/) !== null) 
         {
             let res = IphoneCost[model.value] * inp;
-            result.innerText = res;
+            result.innerHTML = res;
         } 
         else 
         {
-            result.innerText = "Некорректный ввод количества";
+            result.innerHTML = "Некорректный ввод количества";
         }
     });
 });
