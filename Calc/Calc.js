@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("load", function () {
     const IphoneCost =
     {"v1": 60000, "v2": 80000, "v3": 100000};
 
@@ -7,15 +7,15 @@ window.addEventListener("DOMContentLoaded", function () {
     let buttonCalc = document.getElementById("buttonCalc");
     let result = document.getElementById("result");
     buttonCalc.addEventListener("click", function () {
-        let inp = field.value;
+        let inp = field.value.trim();
         if (inp.match(/^\d+$/) !== null) 
         {
             let res = IphoneCost[model.value] * inp;
-            result.innerHTML = res;
+            result.textContent = res.toLocaleString();
         } 
         else 
         {
-            result.innerHTML = "Некорректный ввод количества";
+            result.textContent = "Некорректный ввод количества";
         }
     });
 });
