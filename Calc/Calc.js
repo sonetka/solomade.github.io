@@ -1,4 +1,4 @@
-window.addEventListener("load", function () {
+document.addEventListener("DOMContentLoaded", function () {
     const IphoneCost =
     {"v1": 60000, "v2": 80000, "v3": 100000};
 
