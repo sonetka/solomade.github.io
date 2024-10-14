@@ -2,7 +2,7 @@
 <html lang="ru">
     <head>
       <title> Laba Calc </title>
-      <script defer src="Calc.js"></script>
+      <script defer src="calc2.js"></script>
       <meta charset="UTF-8">
     </head>
 
@@ -14,7 +14,41 @@
             <option value="v3">Iphone 16</option>
         </select>
         <input id="field">
-        <button id="buttonCalc"> Посчитать </button>
+        
+        <fieldset>
+            <h4>Select your complectation:</h4>
+
+            <div>
+                <input type="radio" id="onlyphone" name="Iphone" value="onlyphone" />
+                <label for="onlyphone">Only phone</label>
+            </div>
+
+            <div>
+                <input type="radio" id="phonecharge" name="Iphone" value="phonecharge" />
+                <label for="phonecharge">Phone and charge</label>
+            </div>
+
+            <div>
+                <input type="radio" id="full" name="Iphone" value="full" />
+                <label for="full">Full complectation</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <h4>Additionsl servises:</h4>
+
+            <div>
+                <input type="checkbox" id="delivery" name="servises" value="delivery" />
+                <label for="delivery">Delivery</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="packaging" name="servises" value="packaging" />
+                <label for="packaging">Original packaging</label>
+            </div>
+        </fieldset>
+        
+        <button id="buttonCalc"> Count Cost </button>
         <h4> Result: </h4>
         <div id="result"></div>
     </body>
